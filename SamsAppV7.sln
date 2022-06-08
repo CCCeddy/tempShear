@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamsAppV7", "SamsAppV7.csproj", "{73756C3E-7D84-47AD-B81A-A3ECD394FE94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73756C3E-7D84-47AD-B81A-A3ECD394FE94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73756C3E-7D84-47AD-B81A-A3ECD394FE94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73756C3E-7D84-47AD-B81A-A3ECD394FE94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73756C3E-7D84-47AD-B81A-A3ECD394FE94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6E01E2A-C169-470A-9837-72BF56EAE725}
+	EndGlobalSection
+EndGlobal
