@@ -8,65 +8,65 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SamsAppV7
 build_property.RootNamespace = SamsAppV7
-build_property.ProjectDir = E:\Sams carousel\
+build_property.ProjectDir = C:\Users\eddyc\Desktop\ShearAviationManagement\SamsGit\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Sams carousel
+build_property.MSBuildProjectDirectory = C:\Users\eddyc\Desktop\ShearAviationManagement\SamsGit
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Sams carousel/App.razor]
+[C:/Users/eddyc/Desktop/ShearAviationManagement/SamsGit/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Sams carousel/Pages/Counter.razor]
+[C:/Users/eddyc/Desktop/ShearAviationManagement/SamsGit/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Sams carousel/Pages/FetchData.razor]
+[C:/Users/eddyc/Desktop/ShearAviationManagement/SamsGit/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Sams carousel/Pages/Index.razor]
+[C:/Users/eddyc/Desktop/ShearAviationManagement/SamsGit/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Sams carousel/Shared/LoginDisplay.razor]
+[C:/Users/eddyc/Desktop/ShearAviationManagement/SamsGit/Shared/LoginDisplay.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Sams carousel/Shared/SurveyPrompt.razor]
+[C:/Users/eddyc/Desktop/ShearAviationManagement/SamsGit/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Sams carousel/_Imports.razor]
+[C:/Users/eddyc/Desktop/ShearAviationManagement/SamsGit/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Sams carousel/Shared/MainLayout.razor]
+[C:/Users/eddyc/Desktop/ShearAviationManagement/SamsGit/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-fjqfridg2p
 
-[E:/Sams carousel/Shared/NavMenu.razor]
+[C:/Users/eddyc/Desktop/ShearAviationManagement/SamsGit/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ihicmi63dc
 
-[E:/Sams carousel/Areas/Identity/Pages/Account/LogOut.cshtml]
+[C:/Users/eddyc/Desktop/ShearAviationManagement/SamsGit/Areas/Identity/Pages/Account/LogOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dPdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Sams carousel/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
+[C:/Users/eddyc/Desktop/ShearAviationManagement/SamsGit/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Sams carousel/Pages/Error.cshtml]
+[C:/Users/eddyc/Desktop/ShearAviationManagement/SamsGit/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Sams carousel/Pages/_Host.cshtml]
+[C:/Users/eddyc/Desktop/ShearAviationManagement/SamsGit/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Sams carousel/Pages/_Layout.cshtml]
+[C:/Users/eddyc/Desktop/ShearAviationManagement/SamsGit/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
