@@ -6,7 +6,7 @@ using Microsoft.Data.SqlClient;
 using System.Threading.Tasks;
 namespace SamsAppV7.Data
 {
-    public class FlightBookingServices : IFlightBookinsService
+    public class FlightBookingServices/* : IFlightBookinsService*/
     {
         private readonly SamsConfiguration _configuration;
 
@@ -17,24 +17,29 @@ namespace SamsAppV7.Data
 
         public async Task<List<FlightBookingsData>> GetAll()
         {
+            var sql = "GetFlightDataSp"; 
             using (var conn = new SqlConnection(_configuration.Value))
             {
-                const String sql = @"SELECT * FROM FlightBookingsData";   //change to stored procedure
+                var parameters = new DynamicParameters();
+                parameters.Add("StartDate", FlightBookings.StartDate, DbType.DateTime);
+                parameters.Add("EndDate", FlightBookings.EndDate, DbType.DateTime);
+                //const String sql = @"SELECT * FROM FlightBookingsData";   //change to stored procedure
 
                 List<FlightBookingsData> result = (List<FlightBookingsData>)await conn.QueryAsync<FlightBookingsData>(sql);
                 return result.ToList();
             }
         }
 
-        public async Task<int> GetFlightBookingsCountAsync()
-        {
-            using (var conn = new SqlConnection(_configuration.Value))
-            {
-                const String sql = @"SELECT count(*) FROM GetFlightDataSp";    //change to stored procedure
-                int result = await conn.ExecuteScalarAsync<int>(sql);
-                return result;
-            }
-        }
+        //public async Task<int> GetFlightBookingsCountAsync(FlightBookingsData flightbookings)
+        //{
+
+        //    using (var conn = new SqlConnection(_configuration.Value))
+        //    {
+        //        const string sql = @"select count(*) from getflightbookingscountasync";    //change to stored procedure
+        //        int result = await conn.ExecuteScalarAsync<int>(sql);
+        //        return result;
+        //    }
+        //}
 
         public async Task<bool> FlightBookingsInsert(FlightBookingsData flightbookings)
         {

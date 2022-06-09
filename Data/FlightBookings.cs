@@ -2,6 +2,9 @@
 {
     public class FlightBookings
     {
+        public static object StartDate { get; internal set; }
+        public static object EndDate { get; internal set; }
+
         public static object FlightBookingId { get; internal set; }
         public static object Gender { get; internal set; }
         public static object LastName { get; internal set; }

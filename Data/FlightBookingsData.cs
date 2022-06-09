@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 namespace SamsAppV7.Data
 {
     public class FlightBookingsData
     {
-            public Int64  Id { get; set; }
+            [Key]
+            public Int64 FlightBookingId { get; set; }
             public String Gender { get; set; }
             public String LastName { get; set; }
             public String FirstName { get; set; }
@@ -14,7 +16,10 @@ namespace SamsAppV7.Data
             public Int32 BirthMonth { get; set; }
             public Int32 BirthYr { get; set; }
             public String Nationality{ get; set; }
+
+            [Required]
             public String PassportNo{ get; set; }
+
             public String IssuingCountry{ get; set; }
             public Int32 PassportExpiryDay { get; set; }
             public Int32 PassportExpiryMonth { get; set; }
