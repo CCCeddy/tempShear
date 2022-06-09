@@ -1,0 +1,36 @@
+﻿body {
+
+}
+
+#flight-bookings-form {
+    display: grid;
+    grid-template-columns: 2fr 6fr 1fr;
+/*    background: #F7FFF1;*/
+    background: rgb(255, 255, 255, 0.2);
+    padding: 1em;
+    /*    border: 1px solid black;*/
+    box-shadow: 0 5px 10px 10px darkslategrey;
+    justify-content: center;
+    grid-column-gap: 0.5em;
+}
+
+#flight-bookings-form label {
+    grid-column: 1 /1;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background: skyblue;
+    border-radius: 2px;
+    border: 1px solid darkslategrey;
+    margin-bottom: 1em;
+    box-shadow: 5px 5px 10px 2px darkslategrey;
+}
+    #flight-bookings-form input, #flight-bookings-form select {
+        background: lightgrey;
+        margin-bottom: 1em;
+        box-shadow: 5px 5px 10px 2px darkslategrey;
+    }
+
+    #flight-bookings-form-p {
+/*        grid-column: 2 / span 3;*/
+    }

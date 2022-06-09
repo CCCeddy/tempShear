@@ -1,3 +1,40 @@
+/* _content/SamsAppV7/Pages/FlightBookings.razor.rz.scp.css */
+body[b-x6m63kfh83] {
+
+}
+
+#flight-bookings-form[b-x6m63kfh83] {
+    display: grid;
+    grid-template-columns: 2fr 6fr 1fr;
+/*    background: #F7FFF1;*/
+    background: rgb(255, 255, 255, 0.2);
+    padding: 1em;
+    /*    border: 1px solid black;*/
+    box-shadow: 0 5px 10px 10px darkslategrey;
+    justify-content: center;
+    grid-column-gap: 0.5em;
+}
+
+#flight-bookings-form label[b-x6m63kfh83] {
+    grid-column: 1 /1;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background: skyblue;
+    border-radius: 2px;
+    border: 1px solid darkslategrey;
+    margin-bottom: 1em;
+    box-shadow: 5px 5px 10px 2px darkslategrey;
+}
+    #flight-bookings-form input[b-x6m63kfh83], #flight-bookings-form select[b-x6m63kfh83] {
+        background: lightgrey;
+        margin-bottom: 1em;
+        box-shadow: 5px 5px 10px 2px darkslategrey;
+    }
+
+    #flight-bookings-form-p[b-x6m63kfh83] {
+/*        grid-column: 2 / span 3;*/
+    }
 /* _content/SamsAppV7/Shared/MainLayout.razor.rz.scp.css */
 .page[b-fjqfridg2p] {
     position: relative;

@@ -1,0 +1,233 @@
+﻿@page "/flightbookings"
+
+<PageTitle>Flight Bookings</PageTitle>
+
+
+<h3>Flight Bookings</h3>
+
+<form id="flight-bookings-form">
+    <label for="gender">Gender: </label>
+    <select name="gender" id="gender">
+        <option value="invalid">Choose gender...</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select>
+    <br />
+
+    <label for="lastname">Last Name: </label>
+    <input type="text" name="lastname" id="lastname" />
+
+    <label for="firstname">First Name: </label>
+    <input type="text" name="firstname" id="firstname" />
+
+    <label for="birth-day">Date of Birth: </label><p id="flight-bookings-form-p">
+    <input type="number" style="margin: 0;" name="birth-day" class="date-of-birth" id="birth-day" placeholder="DD"/> / 
+    <input type="number" style="margin: 0;" name="birth-month" class="date-of-birth" id="birth-month" placeholder="MM"/> / 
+    <input type="number" style="margin: 0;" name="birth-year" class="date-of-birth" id="birth-year" placeholder="YYYY"/>
+    </p>
+
+    <label for="nationalities">Nationality: </label>
+    <input type="search" name="nationalities" list="nationality" />
+    <datalist size="10" name="nationality" id="nationality">
+        <option value="Choose Nationality..." />
+        <option value="Afghan" />
+<option value="Albanian" />
+<option value="Algerian" />
+<option value="American" />
+<option value="Andorran" />
+<option value="Angolan" />
+<option value="Antiguans" />
+<option value="Argentinean" />
+<option value="Armenian" />
+<option value="Australian" />
+<option value="Austrian" />
+<option value="Azerbaijani" />
+<option value="Bahamian" />
+<option value="Bahraini" />
+<option value="Bangladeshi" />
+<option value="Barbadian" />
+<option value="Barbudans" />
+<option value="Batswana" />
+<option value="Belarusian" />
+<option value="Belgian" />
+<option value="Belizean" />
+<option value="Beninese" />
+<option value="Bhutanese" />
+<option value="Bolivian" />
+<option value="Bosnian" />
+<option value="Brazilian" />
+<option value="British" />
+<option value="Bruneian" />
+<option value="Bulgarian" />
+<option value="Burkinabe" />
+<option value="Burmese" />
+<option value="Burundian" />
+<option value="Cambodian" />
+<option value="Cameroonian" />
+<option value="Canadian" />
+<option value="Cape Verdean" />
+<option value="Central African" />
+<option value="Chadian" />
+<option value="Chilean" />
+<option value="Chinese" />
+<option value="Colombian" />
+<option value="Comoran" />
+<option value="Congolese" />
+<option value="Costa Rican" />
+<option value="Croatian" />
+<option value="Cuban" />
+<option value="Cypriot" />
+<option value="Czech" />
+<option value="Danish" />
+<option value="Djibouti" />
+<option value="Dominican" />
+<option value="Dutch" />
+<option value="East Timorese" />
+<option value="Ecuadorean" />
+<option value="Egyptian" />
+<option value="Emirian" />
+<option value="Equatorial Guinean" />
+<option value="Eritrean" />
+<option value="Estonian" />
+<option value="Ethiopian" />
+<option value="Fijian" />
+<option value="Filipino" />
+<option value="Finnish" />
+<option value="French" />
+<option value="Gabonese" />
+<option value="Gambian" />
+<option value="Georgian" />
+<option value="German" />
+<option value="Ghanaian" />
+<option value="Greek" />
+<option value="Grenadian" />
+<option value="Guatemalan" />
+<option value="Guinea-Bissauan" />
+<option value="Guinean" />
+<option value="Guyanese" />
+<option value="Haitian" />
+<option value="Herzegovinian" />
+<option value="Honduran" />
+<option value="Hungarian" />
+<option value="I-Kiribati" />
+<option value="Icelander" />
+<option value="Indian" />
+<option value="Indonesian" />
+<option value="Iranian" />
+<option value="Iraqi" />
+<option value="Irish" />
+<option value="Israeli" />
+<option value="Italian" />
+<option value="Ivorian" />
+<option value="Jamaican" />
+<option value="Japanese" />
+<option value="Jordanian" />
+<option value="Kazakhstani" />
+<option value="Kenyan" />
+<option value="Kittian and Nevisian" />
+<option value="Kuwaiti" />
+<option value="Kyrgyz" />
+<option value="Laotian" />
+<option value="Latvian" />
+<option value="Lebanese" />
+<option value="Liberian" />
+<option value="Libyan" />
+<option value="Liechtensteiner" />
+<option value="Lithuanian" />
+<option value="Luxembourger" />
+<option value="Macedonian" />
+<option value="Malagasy" />
+<option value="Malawian" />
+<option value="Malaysian" />
+<option value="Maldivian" />
+<option value="Malian" />
+<option value="Maltese" />
+<option value="Marshallese" />
+<option value="Mauritanian" />
+<option value="Mauritian" />
+<option value="Mexican" />
+<option value="Micronesian" />
+<option value="Moldovan" />
+<option value="Monacan" />
+<option value="Mongolian" />
+<option value="Moroccan" />
+<option value="Mosotho" />
+<option value="Motswana" />
+<option value="Mozambican" />
+<option value="Namibian" />
+<option value="Nauruan" />
+<option value="Nepalese" />
+<option value="New Zealander" />
+<option value="Ni-Vanuatu" />
+<option value="Nicaraguan" />
+<option value="Nigerian" />
+<option value="Nigerien" />
+<option value="North Korean" />
+<option value="Northern Irish" />
+<option value="Norwegian" />
+<option value="Omani" />
+<option value="Pakistani" />
+<option value="Palauan" />
+<option value="Panamanian" />
+<option value="Papua New Guinean" />
+<option value="Paraguayan" />
+<option value="Peruvian" />
+<option value="Polish" />
+<option value="Portuguese" />
+<option value="Qatari" />
+<option value="Romanian" />
+<option value="Russian" />
+<option value="Rwandan" />
+<option value="Saint Lucian" />
+<option value="Salvadoran" />
+<option value="Samoan" />
+<option value="San Marinese" />
+<option value="Sao Tomean" />
+<option value="Saudi" />
+<option value="Scottish" />
+<option value="Senegalese" />
+<option value="Serbian" />
+<option value="Seychellois" />
+<option value="Sierra Leonean" />
+<option value="Singaporean" />
+<option value="Slovakian" />
+<option value="Slovenian" />
+<option value="Solomon Islander" />
+<option value="Somali" />
+<option value="South African" />
+<option value="South Korean" />
+<option value="Spanish" />
+<option value="Sri Lankan" />
+<option value="Sudanese" />
+<option value="Surinamer" />
+<option value="Swazi" />
+<option value="Swedish" />
+<option value="Swiss" />
+<option value="Syrian" />
+<option value="Taiwanese" />
+<option value="Tajik" />
+<option value="Tanzanian" />
+<option value="Thai" />
+<option value="Togolese" />
+<option value="Tongan" />
+<option value="Trinidadian or Tobagonian" />
+<option value="Tunisian" />
+<option value="Turkish" />
+<option value="Tuvaluan" />
+<option value="Ugandan" />
+<option value="Ukrainian" />
+<option value="Uruguayan" />
+<option value="Uzbekistani" />
+<option value="Venezuelan" />
+<option value="Vietnamese" />
+<option value="Welsh" />
+<option value="Yemenite" />
+<option value="Zambian" />
+<option value="Zimbabwean" />
+    </datalist>
+</form>
+
+@code {
+
+}

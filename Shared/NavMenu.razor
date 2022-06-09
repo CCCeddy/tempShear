@@ -24,10 +24,34 @@
                 <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
             </NavLink>
         </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="flightbookings">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Flight Bookings
+            </NavLink>
+        </div>
+
+
+        @*Nav-item with sub-sections*@
+        @*<div class="nav-item px-3">
+            <NavLink class="nav-link" @onclick="()=>expandSubNav = !expandSubNav">
+        <span class="oi oi-list-rich" aria-hidden="false"></span> Flight Bookings
+    </NavLink>
+    @if (!expandSubNav)
+    {
+        <NavLink class="expand-menu nav-item" href="newComponent">
+            <span>> Flight Bookings</span>
+        </NavLink>
+        <NavLink class="" href="">
+            <span>> Sub2</span>
+        </NavLink>
+    }
+        </div>*@
     </nav>
 </div>
 
 @code {
+    private bool expandSubNav;
+
     private bool collapseNavMenu = true;
 
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;

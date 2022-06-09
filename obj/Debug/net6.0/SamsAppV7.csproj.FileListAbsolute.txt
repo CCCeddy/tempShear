@@ -213,3 +213,4 @@ C:\Users\eddyc\Desktop\ShearAviationManagement\SamsGit\obj\Debug\net6.0\refint\S
 C:\Users\eddyc\Desktop\ShearAviationManagement\SamsGit\obj\Debug\net6.0\SamsAppV7.pdb
 C:\Users\eddyc\Desktop\ShearAviationManagement\SamsGit\obj\Debug\net6.0\SamsAppV7.genruntimeconfig.cache
 C:\Users\eddyc\Desktop\ShearAviationManagement\SamsGit\obj\Debug\net6.0\ref\SamsAppV7.dll
+C:\Users\eddyc\Desktop\ShearAviationManagement\SamsGit\obj\Debug\net6.0\scopedcss\Pages\FlightBookings.razor.rz.scp.css
